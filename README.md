@@ -1,59 +1,42 @@
-# MeuPrimeiroApp com Angular
+# Aprendendo Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.4.
+Este repositório contém um projeto de estudo para aprender e praticar Angular, desenvolvido com o objetivo de compreender os conceitos fundamentais e avançados deste framework robusto para construção de aplicações web.
 
-## Development server
+## Objetivo do Projeto
 
-To start a local development server, run:
+O objetivo deste projeto é fornecer uma base prática para o aprendizado do Angular, permitindo a criação de componentes reutilizáveis, gerenciamento de rotas, serviços, injeção de dependências e interação com APIs externas. A configuração com o Angular CLI visa facilitar o desenvolvimento e a manutenção da aplicação.
 
-```bash
-ng serve
-```
+## Funcionalidades
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- **Componentes Reutilizáveis:** Criação de componentes modulares e reutilizáveis para construção da interface.
+- **Gerenciamento de Rotas:** Implementação de navegação entre diferentes vistas da aplicação.
+- **Serviços e Injeção de Dependências:** Uso de serviços para lógica de negócios e injeção de dependências para promover um código mais modular e testável.
+- **Consumo de APIs:** Integração com APIs externas para exibição de dados dinâmicos.
+- **Formulários Reativos:** Criação e validação de formulários utilizando a abordagem reativa do Angular.
 
-## Code scaffolding
+## Tecnologias Utilizadas
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- [Angular](https://angular.io/): Framework para construção de aplicações web dinâmicas.
+- [TypeScript](https://www.typescriptlang.org/): Superconjunto do JavaScript que adiciona tipagem estática ao código.
+- [Angular CLI](https://cli.angular.io/): Ferramenta de linha de comando para inicializar, desenvolver e manter aplicações Angular.
+- [RxJS](https://rxjs.dev/): Biblioteca para programação reativa utilizada pelo Angular para manipulação de eventos assíncronos.
 
-```bash
-ng generate component component-name
-```
+## Estrutura do Projeto
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+- `src/`: Contém os arquivos fonte do projeto.
+  - `app/`: Diretório principal da aplicação, contendo módulos, componentes e serviços.
+    - `app.module.ts`: Módulo raiz da aplicação.
+    - `app.component.ts`: Componente raiz da aplicação.
+    - `app-routing.module.ts`: Módulo de rotas da aplicação.
+  - `assets/`: Diretório para recursos estáticos, como imagens e estilos.
+  - `environments/`: Configurações para diferentes ambientes (desenvolvimento e produção).
+- `angular.json`: Configurações específicas do Angular CLI.
+- `package.json`: Gerencia as dependências e scripts do projeto.
+- `tsconfig.json`: Configurações do compilador TypeScript.
 
-```bash
-ng generate --help
-```
+## Instalação
 
-## Building
+1. **Clone o repositório:**
 
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+   ```bash
+   git clone https://github.com/MarcioCosta013/AprendendoAngular.git
